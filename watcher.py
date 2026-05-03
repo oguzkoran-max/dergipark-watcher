@@ -155,9 +155,17 @@ JOURNALS = {
     },
 }
 
-CLOSED_MARKERS = [
-    "Makale Gönderimine Kapalı",
-    "Makale Gönderimine Açılacak Tarih",
+CLOSED_PATTERNS = [
+    re.compile(r"Makale Gönderimine Kapalı", re.IGNORECASE),
+    re.compile(r"Makale Gönderimine Açılacak Tarih", re.IGNORECASE),
+    re.compile(r"makale\s*kabul[üu]?\s*sona\s*erm", re.IGNORECASE),
+    re.compile(r"makale\s*kabul[üu]?n?[üu]?\s*durdur", re.IGNORECASE),
+    re.compile(r"makale\s*kabul[üu]?\s*kapat", re.IGNORECASE),
+    re.compile(r"de[ğg]erlendirmeye\s+al[ıi]nacak\s+makale\s+say[ıi]s[ıi]na\s+ula[şs]", re.IGNORECASE),
+    re.compile(r"makale\s*al[ıi]nmamakta", re.IGNORECASE),
+    re.compile(r"makale\s*kabul[üu]?ne?\s*ara\s*ver", re.IGNORECASE),
+    re.compile(r"şu\s*an(da)?\s*makale\s*kabul\s*edilmem", re.IGNORECASE),
+    re.compile(r"makale\s*kabul[üu]?\s*tarihleri?\s*bilahare", re.IGNORECASE),
 ]
 OPEN_DATE_PATTERN = re.compile(
     r"Makale\s+Gönderimine\s+Açılacak\s+Tarih[:\s]+(\d{1,2})\s+(\w+)\s+(\d{4})",
@@ -177,14 +185,50 @@ HEADERS    = {"User-Agent": "Mozilla/5.0 (compatible; dergipark-watcher/2.0)"}
 ERROR_RATE_LIMIT_HOURS = 24
 
 
+_BROWSER = None
+_PW = None
+
+
+def _get_browser():
+    global _BROWSER, _PW
+    if _BROWSER is None:
+        from playwright.sync_api import sync_playwright
+        _PW = sync_playwright().start()
+        _BROWSER = _PW.chromium.launch(headless=True)
+    return _BROWSER
+
+
+def _close_browser():
+    global _BROWSER, _PW
+    if _BROWSER is not None:
+        try:
+            _BROWSER.close()
+        except Exception:
+            pass
+        _BROWSER = None
+    if _PW is not None:
+        try:
+            _PW.stop()
+        except Exception:
+            pass
+        _PW = None
+
+
 def fetch(url):
-    r = requests.get(url, timeout=30, headers=HEADERS)
-    r.raise_for_status()
-    return r.text
+    browser = _get_browser()
+    context = browser.new_context(user_agent=HEADERS["User-Agent"])
+    page = context.new_page()
+    try:
+        page.goto(url, wait_until="domcontentloaded", timeout=30000)
+        page.wait_for_timeout(1800)
+        return page.content()
+    finally:
+        page.close()
+        context.close()
 
 
 def is_open(html):
-    return not any(m in html for m in CLOSED_MARKERS)
+    return not any(p.search(html) for p in CLOSED_PATTERNS)
 
 
 def parse_open_date(html):
@@ -609,6 +653,7 @@ def main():
         state["_meta"]["last_weekly_summary"] = today
 
     STATE_FILE.write_text(json.dumps(state, indent=2, ensure_ascii=False), encoding="utf-8")
+    _close_browser()
 
 
 if __name__ == "__main__":
