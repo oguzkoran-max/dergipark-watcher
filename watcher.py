@@ -68,6 +68,7 @@ JOURNALS = {
         "indexes": ["TR Dizin", "MLA", "EBSCO", "Index Copernicus", "SOBIAD"],
         "paid": None, "duration_days": None, "issues_per_year": 2,
         "critical_for": None,
+        "manual_status": "closed",  # popup duyuru anonim ziyaretçiye görünmüyor (cookie/login)
     },
     "cankujhss": {
         "name": "Çankaya CUJHSS",
@@ -82,6 +83,7 @@ JOURNALS = {
         "indexes": ["ESCI", "DOAJ", "MLA", "EBSCO", "Index Copernicus"],
         "paid": None, "duration_days": None, "issues_per_year": 2,
         "critical_for": None,
+        "manual_status": "closed",  # "yoğun başvuru süreci" duyuru anonim ziyaretçiye görünmüyor
     },
     "suitder": {
         "name": "SUİTDER (SDÜ)",
@@ -583,6 +585,26 @@ def main():
 
     for slug, j in JOURNALS.items():
         prev = state.get(slug, {})
+
+        if "manual_status" in j:
+            now_open = (j["manual_status"] == "open")
+            ns = {"open": now_open, "checked_at": now_iso(), "manual": True}
+            if prev.get("latest_issue"):
+                ns["latest_issue"] = prev["latest_issue"]
+            latest_issue = ns.get("latest_issue")
+            state[slug] = ns
+            was_open = prev.get("open")
+            if was_open is None:
+                print(f"INIT {slug} = {'acik' if now_open else 'kapali'} (MANUAL)")
+                continue
+            if was_open != now_open:
+                append_history(state, slug, now_open)
+                (opened if now_open else closed_).append((slug, j))
+                print(f"CHANGED {slug} (MANUAL): {was_open} -> {now_open}")
+            else:
+                print(f"NOCHANGE {slug} = {'acik' if now_open else 'kapali'} (MANUAL)")
+            continue
+
         try:
             html = fetch(j["url"])
         except Exception as e:
