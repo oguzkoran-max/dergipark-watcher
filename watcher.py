@@ -1,6 +1,21 @@
-import requests, json, os, sys, re
+import requests, json, os, sys, re, subprocess
 from pathlib import Path
 from datetime import datetime, timezone, date, timedelta
+
+
+def _ensure_playwright():
+    try:
+        from playwright.sync_api import sync_playwright  # noqa: F401
+        return
+    except ImportError:
+        pass
+    print("[setup] Installing playwright + chromium...", file=sys.stderr)
+    subprocess.check_call([sys.executable, "-m", "pip", "install", "playwright", "--quiet"])
+    subprocess.check_call([sys.executable, "-m", "playwright", "install", "chromium"])
+
+
+_ensure_playwright()
+
 
 # ---- Dergi listesi (zenginleştirilmiş metadata) ----
 JOURNALS = {
