@@ -155,7 +155,10 @@ JOURNALS = {
     },
 }
 
-CLOSED_MARKERS = ["Makale Gönderimine Kapalı"]
+CLOSED_MARKERS = [
+    "Makale Gönderimine Kapalı",
+    "Makale Gönderimine Açılacak Tarih",
+]
 OPEN_DATE_PATTERN = re.compile(
     r"Makale\s+Gönderimine\s+Açılacak\s+Tarih[:\s]+(\d{1,2})\s+(\w+)\s+(\d{4})",
     re.IGNORECASE,
