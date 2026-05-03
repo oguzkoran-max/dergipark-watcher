@@ -234,8 +234,12 @@ def fetch(url):
     context = browser.new_context(user_agent=HEADERS["User-Agent"])
     page = context.new_page()
     try:
-        page.goto(url, wait_until="domcontentloaded", timeout=30000)
-        page.wait_for_timeout(1800)
+        page.goto(url, wait_until="domcontentloaded", timeout=45000)
+        try:
+            page.wait_for_load_state("networkidle", timeout=8000)
+        except Exception:
+            pass
+        page.wait_for_timeout(2500)
         return page.content()
     finally:
         page.close()
