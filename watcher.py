@@ -252,6 +252,34 @@ def is_open(html):
     return not any(p.search(html) for p in CLOSED_PATTERNS)
 
 
+BOT_COMMANDS = [
+    {"command": "acik", "description": "Açık dergileri listele"},
+    {"command": "kapali", "description": "Kapalı dergileri listele"},
+    {"command": "durum", "description": "Tam tablo"},
+    {"command": "takip", "description": "Toplam sayım kısa özet"},
+    {"command": "dergi", "description": "Tek dergi detayı (slug ile)"},
+    {"command": "kritik", "description": "Aktif takip dergileri"},
+    {"command": "yakin", "description": "30 gün içinde açılacaklar"},
+    {"command": "indeks", "description": "İndekse göre filtre"},
+    {"command": "sirala", "description": "Yayımlanma hızı sıralı"},
+    {"command": "yardim", "description": "Komut listesi"},
+]
+
+
+def set_bot_commands():
+    try:
+        r = requests.post(
+            f"https://api.telegram.org/bot{TG_TOKEN}/setMyCommands",
+            json={"commands": BOT_COMMANDS},
+            timeout=15,
+        )
+        r.raise_for_status()
+        return True
+    except Exception as e:
+        print(f"setMyCommands FAIL: {e}", file=sys.stderr)
+        return False
+
+
 def parse_open_date(html):
     m = OPEN_DATE_PATTERN.search(html)
     if not m:
@@ -580,6 +608,7 @@ def append_history(state, slug, now_open):
 def main():
     state = json.loads(STATE_FILE.read_text(encoding="utf-8")) if STATE_FILE.exists() else {}
     state.setdefault("_meta", {})
+    set_bot_commands()
     errors_today = []
     opened, closed_, new_issues = [], [], []
 
