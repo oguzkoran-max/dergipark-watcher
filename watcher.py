@@ -725,6 +725,14 @@ def main():
     STATE_FILE.write_text(json.dumps(state, indent=2, ensure_ascii=False), encoding="utf-8")
     _close_browser()
 
+    if os.environ.get("GITHUB_EVENT_NAME") == "workflow_dispatch":
+        op = sum(1 for s in JOURNALS if state.get(s, {}).get("open") is True)
+        cl = sum(1 for s in JOURNALS if state.get(s, {}).get("open") is False)
+        try:
+            notify(f"✅ Manuel run tamam: 🟢 {op} açık · 🔴 {cl} kapalı")
+        except Exception as e:
+            print(f"HEALTHCHECK NOTIFY FAIL: {e}", file=sys.stderr)
+
 
 if __name__ == "__main__":
     main()
