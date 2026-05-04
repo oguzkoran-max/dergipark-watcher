@@ -14,7 +14,8 @@ def _ensure_playwright():
     subprocess.check_call([sys.executable, "-m", "playwright", "install", "chromium"])
 
 
-_ensure_playwright()
+if "--bot-only" not in sys.argv:
+    _ensure_playwright()
 
 
 # ---- Dergi listesi (zenginleştirilmiş metadata) ----
@@ -734,5 +735,19 @@ def main():
             print(f"HEALTHCHECK NOTIFY FAIL: {e}", file=sys.stderr)
 
 
+def bot_only():
+    """5 dk'da bir çalışır, sadece komut polling + setMyCommands. Playwright/Render YOK."""
+    state = json.loads(STATE_FILE.read_text(encoding="utf-8")) if STATE_FILE.exists() else {}
+    state.setdefault("_meta", {})
+    if not state["_meta"].get("commands_set"):
+        if set_bot_commands():
+            state["_meta"]["commands_set"] = True
+    process_commands(state)
+    STATE_FILE.write_text(json.dumps(state, indent=2, ensure_ascii=False), encoding="utf-8")
+
+
 if __name__ == "__main__":
-    main()
+    if "--bot-only" in sys.argv:
+        bot_only()
+    else:
+        main()
