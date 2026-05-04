@@ -1,6 +1,7 @@
 {
   "_meta": {
-    "last_update_id": 530985883
+    "last_update_id": 530985883,
+    "commands_set": true
   },
   "soylem": {
     "open": false,
