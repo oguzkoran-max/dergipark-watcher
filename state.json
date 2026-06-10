@@ -6,108 +6,103 @@
   },
   "soylem": {
     "open": false,
-    "checked_at": "2026-06-10T20:23:03.041727+00:00",
+    "checked_at": "2026-06-10T22:49:48.472468+00:00",
     "latest_issue": "Cilt 11 Sayı 1"
   },
   "iulitera": {
     "open": false,
-    "checked_at": "2026-06-10T20:23:07.950581+00:00",
+    "checked_at": "2026-06-10T22:49:53.257518+00:00",
     "latest_issue": "Cilt 35 Sayı 2"
   },
   "deuefad": {
     "open": false,
-    "checked_at": "2026-06-10T20:23:12.819242+00:00",
+    "checked_at": "2026-06-10T22:49:58.298705+00:00",
     "latest_issue": "Cilt 13 Sayı 1"
   },
   "diledeara": {
     "open": false,
-    "checked_at": "2026-06-10T20:23:17.835671+00:00"
+    "checked_at": "2026-06-10T22:50:03.332205+00:00"
   },
   "eeder": {
     "open": false,
-    "checked_at": "2026-06-10T20:23:22.667875+00:00",
+    "checked_at": "2026-06-10T22:50:08.221045+00:00",
     "latest_issue": "Cilt 10 Sayı 1"
   },
   "humanitas": {
     "open": false,
-    "checked_at": "2026-06-10T20:23:27.536648+00:00",
+    "checked_at": "2026-06-10T22:50:13.142473+00:00",
     "latest_issue": "Cilt 14 Sayı 27"
   },
   "sosbilder": {
     "open": false,
-    "checked_at": "2026-06-10T20:23:27.536674+00:00",
+    "checked_at": "2026-06-10T22:50:13.142500+00:00",
     "manual": true
   },
   "cankujhss": {
     "open": true,
-    "checked_at": "2026-06-10T20:23:32.799440+00:00"
+    "checked_at": "2026-06-10T22:50:18.222118+00:00"
   },
   "sefad": {
     "open": false,
-    "checked_at": "2026-06-10T20:23:32.799481+00:00",
+    "checked_at": "2026-06-10T22:50:18.222161+00:00",
     "manual": true
   },
   "suitder": {
     "open": false,
-    "checked_at": "2026-06-10T20:23:38.426235+00:00"
+    "checked_at": "2026-06-10T22:50:23.619061+00:00"
   },
   "litandhum": {
     "open": false,
-    "checked_at": "2026-06-10T20:23:43.339377+00:00"
+    "checked_at": "2026-06-10T22:50:28.398200+00:00"
   },
   "udekad": {
     "open": true,
-    "checked_at": "2026-06-10T20:23:48.219938+00:00",
+    "checked_at": "2026-06-10T22:50:33.490156+00:00",
     "latest_issue": "Cilt 9 Sayı 1"
   },
   "dtcf": {
     "open": false,
-    "checked_at": "2026-06-10T20:23:53.103825+00:00",
+    "checked_at": "2026-06-10T22:50:38.283098+00:00",
     "latest_issue": "Cilt 65 Sayı 2"
   },
   "huefd": {
     "open": true,
-    "checked_at": "2026-06-10T20:23:58.082147+00:00",
+    "checked_at": "2026-06-10T22:50:43.652494+00:00",
     "latest_issue": "Cilt 43 Sayı 1"
   },
   "nesir": {
     "open": false,
-    "checked_at": "2026-06-10T20:24:02.955899+00:00"
+    "checked_at": "2026-06-10T22:50:48.470843+00:00"
   },
   "ceviri": {
     "open": false,
-    "checked_at": "2026-06-10T20:24:07.979189+00:00"
+    "checked_at": "2026-06-10T22:50:53.306258+00:00"
   },
   "dilder": {
     "open": true,
-    "checked_at": "2026-06-10T20:24:12.914089+00:00",
+    "checked_at": "2026-06-10T22:50:58.118655+00:00",
     "latest_issue": "Cilt 176 Sayı 2"
   },
   "trkede": {
     "open": true,
-    "checked_at": "2026-06-10T20:24:17.928390+00:00",
+    "checked_at": "2026-06-10T22:51:02.904221+00:00",
     "latest_issue": "Cilt 16 Sayı 31"
   },
   "dilarast": {
-    "open": true,
-    "checked_at": "2026-06-10T20:24:22.777112+00:00",
+    "open": false,
+    "checked_at": "2026-06-10T22:51:07.676361+00:00",
     "latest_issue": "Cilt 20 Sayı 38"
   },
   "bilig": {
     "open": false,
-    "checked_at": "2026-06-10T20:24:27.624702+00:00"
+    "checked_at": "2026-06-10T22:51:12.504392+00:00"
   },
   "fe": {
     "open": true,
-    "checked_at": "2026-06-10T20:24:32.545959+00:00",
+    "checked_at": "2026-06-10T22:51:17.218939+00:00",
     "latest_issue": "Cilt 32 Sayı 126"
   },
   "_history": [
-    {
-      "at": "2026-05-06T11:02:21.946767+00:00",
-      "slug": "eeder",
-      "open": true
-    },
     {
       "at": "2026-05-06T11:02:25.405109+00:00",
       "slug": "humanitas",
@@ -251,6 +246,11 @@
     {
       "at": "2026-06-04T17:42:33.639528+00:00",
       "slug": "litandhum",
+      "open": false
+    },
+    {
+      "at": "2026-06-10T22:51:07.676381+00:00",
+      "slug": "dilarast",
       "open": false
     }
   ]
