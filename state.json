@@ -6,108 +6,103 @@
   },
   "soylem": {
     "open": false,
-    "checked_at": "2026-06-15T17:07:45.995899+00:00",
+    "checked_at": "2026-06-15T20:50:19.582102+00:00",
     "latest_issue": "Cilt 11 Sayı 1"
   },
   "iulitera": {
     "open": false,
-    "checked_at": "2026-06-15T17:07:51.420755+00:00",
+    "checked_at": "2026-06-15T20:50:25.097185+00:00",
     "latest_issue": "Cilt 35 Sayı 2"
   },
   "deuefad": {
     "open": false,
-    "checked_at": "2026-06-15T17:07:56.885774+00:00",
+    "checked_at": "2026-06-15T20:50:30.614613+00:00",
     "latest_issue": "Cilt 13 Sayı 1"
   },
   "diledeara": {
     "open": false,
-    "checked_at": "2026-06-15T17:08:02.299592+00:00"
+    "checked_at": "2026-06-15T20:50:36.131213+00:00"
   },
   "eeder": {
     "open": false,
-    "checked_at": "2026-06-15T17:08:07.714400+00:00",
+    "checked_at": "2026-06-15T20:50:41.486712+00:00",
     "latest_issue": "Cilt 10 Sayı 1"
   },
   "humanitas": {
     "open": false,
-    "checked_at": "2026-06-15T17:08:13.198070+00:00",
+    "checked_at": "2026-06-15T20:50:46.986062+00:00",
     "latest_issue": "Cilt 14 Sayı 27"
   },
   "sosbilder": {
     "open": false,
-    "checked_at": "2026-06-15T17:08:13.198097+00:00",
+    "checked_at": "2026-06-15T20:50:46.986087+00:00",
     "manual": true
   },
   "cankujhss": {
     "open": true,
-    "checked_at": "2026-06-15T17:08:19.124445+00:00"
+    "checked_at": "2026-06-15T20:50:52.791368+00:00"
   },
   "sefad": {
     "open": false,
-    "checked_at": "2026-06-15T17:08:19.124472+00:00",
+    "checked_at": "2026-06-15T20:50:52.791392+00:00",
     "manual": true
   },
   "suitder": {
     "open": false,
-    "checked_at": "2026-06-15T17:08:25.420422+00:00"
+    "checked_at": "2026-06-15T20:50:59.043368+00:00"
   },
   "litandhum": {
     "open": false,
-    "checked_at": "2026-06-15T17:08:30.863840+00:00"
+    "checked_at": "2026-06-15T20:51:04.547535+00:00"
   },
   "udekad": {
     "open": true,
-    "checked_at": "2026-06-15T17:08:36.703852+00:00",
+    "checked_at": "2026-06-15T20:51:10.420322+00:00",
     "latest_issue": "Cilt 9 Sayı 1"
   },
   "dtcf": {
-    "open": true,
-    "checked_at": "2026-06-15T17:08:42.219119+00:00",
+    "open": false,
+    "checked_at": "2026-06-15T20:51:15.867979+00:00",
     "latest_issue": "Cilt 65 Sayı 2"
   },
   "huefd": {
     "open": true,
-    "checked_at": "2026-06-15T17:08:47.963987+00:00",
+    "checked_at": "2026-06-15T20:51:21.438201+00:00",
     "latest_issue": "Cilt 43 Sayı 1"
   },
   "nesir": {
     "open": false,
-    "checked_at": "2026-06-15T17:08:53.633848+00:00"
+    "checked_at": "2026-06-15T20:51:27.069375+00:00"
   },
   "ceviri": {
     "open": false,
-    "checked_at": "2026-06-15T17:08:59.234527+00:00"
+    "checked_at": "2026-06-15T20:51:32.469517+00:00"
   },
   "dilder": {
     "open": true,
-    "checked_at": "2026-06-15T17:09:05.260824+00:00",
+    "checked_at": "2026-06-15T20:51:38.012164+00:00",
     "latest_issue": "Cilt 176 Sayı 2"
   },
   "trkede": {
     "open": true,
-    "checked_at": "2026-06-15T17:09:10.739476+00:00",
+    "checked_at": "2026-06-15T20:51:43.514214+00:00",
     "latest_issue": "Cilt 16 Sayı 31"
   },
   "dilarast": {
     "open": false,
-    "checked_at": "2026-06-15T17:09:16.168992+00:00",
+    "checked_at": "2026-06-15T20:51:49.123401+00:00",
     "latest_issue": "Cilt 20 Sayı 38"
   },
   "bilig": {
     "open": false,
-    "checked_at": "2026-06-15T17:09:21.698236+00:00"
+    "checked_at": "2026-06-15T20:51:54.633433+00:00"
   },
   "fe": {
     "open": true,
-    "checked_at": "2026-06-15T17:09:27.360920+00:00",
+    "checked_at": "2026-06-15T20:52:00.583606+00:00",
     "latest_issue": "Cilt 32 Sayı 126"
   },
   "_history": [
-    {
-      "at": "2026-05-06T11:02:32.345565+00:00",
-      "slug": "suitder",
-      "open": true
-    },
     {
       "at": "2026-05-06T11:02:46.520642+00:00",
       "slug": "dtcf",
@@ -252,6 +247,11 @@
       "at": "2026-06-14T22:06:11.287496+00:00",
       "slug": "dtcf",
       "open": true
+    },
+    {
+      "at": "2026-06-15T20:51:15.867993+00:00",
+      "slug": "dtcf",
+      "open": false
     }
   ]
 }
