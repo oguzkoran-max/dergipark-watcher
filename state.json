@@ -2,30 +2,31 @@
   "_meta": {
     "last_update_id": 530985897,
     "commands_set": true,
-    "err_soylem": "2026-06-06T19:13:21.183809+00:00"
+    "err_soylem": "2026-06-06T19:13:21.183809+00:00",
+    "err_humanitas": "2026-07-01T19:47:36.427551+00:00"
   },
   "soylem": {
     "open": false,
-    "checked_at": "2026-07-01T17:09:27.503653+00:00",
+    "checked_at": "2026-07-01T19:45:58.636432+00:00",
     "latest_issue": "Cilt 11 Sayı 2"
   },
   "iulitera": {
     "open": false,
-    "checked_at": "2026-07-01T17:09:32.885323+00:00",
+    "checked_at": "2026-07-01T19:46:03.876938+00:00",
     "latest_issue": "Cilt 35 Sayı 2"
   },
   "deuefad": {
     "open": false,
-    "checked_at": "2026-07-01T17:09:38.284333+00:00",
+    "checked_at": "2026-07-01T19:46:08.942137+00:00",
     "latest_issue": "Cilt 13 Sayı 1"
   },
   "diledeara": {
     "open": false,
-    "checked_at": "2026-07-01T17:09:43.825470+00:00"
+    "checked_at": "2026-07-01T19:46:25.128201+00:00"
   },
   "eeder": {
     "open": false,
-    "checked_at": "2026-07-01T17:09:49.386884+00:00",
+    "checked_at": "2026-07-01T19:46:51.383806+00:00",
     "latest_issue": "Cilt 10 Sayı 1"
   },
   "humanitas": {
@@ -35,71 +36,70 @@
   },
   "sosbilder": {
     "open": false,
-    "checked_at": "2026-07-01T17:09:54.725792+00:00",
+    "checked_at": "2026-07-01T19:47:36.427590+00:00",
     "manual": true
   },
   "cankujhss": {
     "open": true,
-    "checked_at": "2026-07-01T17:10:00.463636+00:00"
+    "checked_at": "2026-07-01T19:47:56.546880+00:00"
   },
   "sefad": {
     "open": false,
-    "checked_at": "2026-07-01T17:10:00.463659+00:00",
+    "checked_at": "2026-07-01T19:47:56.546907+00:00",
     "manual": true
   },
   "suitder": {
     "open": false,
-    "checked_at": "2026-07-01T17:10:06.966368+00:00"
+    "checked_at": "2026-07-01T19:48:01.416178+00:00"
   },
   "litandhum": {
     "open": false,
-    "checked_at": "2026-07-01T17:10:12.333296+00:00"
+    "checked_at": "2026-07-01T19:48:06.184955+00:00"
   },
   "udekad": {
     "open": true,
-    "checked_at": "2026-07-01T17:10:17.718047+00:00",
+    "checked_at": "2026-07-01T19:48:11.256876+00:00",
     "latest_issue": "Cilt 9 Sayı 2"
   },
   "dtcf": {
     "open": false,
-    "checked_at": "2026-07-01T17:10:23.163997+00:00",
+    "checked_at": "2026-07-01T19:48:16.895195+00:00",
     "latest_issue": "Cilt 66 Sayı 1"
   },
   "huefd": {
     "open": true,
-    "checked_at": "2026-07-01T17:10:28.491779+00:00",
+    "checked_at": "2026-07-01T19:48:23.685970+00:00",
     "latest_issue": "Cilt 43 Sayı 1"
   },
   "nesir": {
     "open": false,
-    "checked_at": "2026-07-01T17:10:33.854930+00:00"
+    "checked_at": "2026-07-01T19:48:34.791107+00:00"
   },
   "ceviri": {
     "open": false,
-    "checked_at": "2026-07-01T17:10:39.238492+00:00"
+    "checked_at": "2026-07-01T19:48:39.535300+00:00"
   },
   "dilder": {
     "open": true,
-    "checked_at": "2026-07-01T17:10:44.707652+00:00",
-    "latest_issue": "Cilt 177 Sayı 1"
+    "checked_at": "2026-07-01T19:48:43.003609+00:00"
   },
   "trkede": {
     "open": true,
-    "checked_at": "2026-07-01T17:10:50.126423+00:00",
+    "checked_at": "2026-07-01T19:48:47.740934+00:00",
     "latest_issue": "Cilt 16 Sayı 31"
   },
   "dilarast": {
     "open": true,
-    "checked_at": "2026-07-01T17:10:55.514683+00:00",
+    "checked_at": "2026-07-01T19:48:52.505134+00:00",
     "latest_issue": "Cilt 20 Sayı 38"
   },
   "bilig": {
     "open": false,
-    "checked_at": "2026-07-01T17:11:00.896441+00:00"
+    "checked_at": "2026-07-01T19:48:57.333662+00:00"
   },
   "fe": {
     "open": true,
-    "checked_at": "2026-07-01T17:11:06.155649+00:00",
+    "checked_at": "2026-07-01T19:49:02.094019+00:00",
     "latest_issue": "Cilt 32 Sayı 126"
   },
   "_history": [
