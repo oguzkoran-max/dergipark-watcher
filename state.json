@@ -9,108 +9,103 @@
   },
   "soylem": {
     "open": false,
-    "checked_at": "2026-08-19T21:19:58.060672+00:00",
+    "checked_at": "2026-08-20T00:54:37.444392+00:00",
     "latest_issue": "Cilt 11 Sayı 2"
   },
   "iulitera": {
     "open": false,
-    "checked_at": "2026-08-19T21:20:03.144776+00:00",
+    "checked_at": "2026-08-20T00:54:42.393937+00:00",
     "latest_issue": "Cilt 35 Sayı 2"
   },
   "deuefad": {
     "open": false,
-    "checked_at": "2026-08-19T21:20:08.602522+00:00",
+    "checked_at": "2026-08-20T00:54:47.336480+00:00",
     "latest_issue": "Cilt 13 Sayı 1"
   },
   "diledeara": {
     "open": false,
-    "checked_at": "2026-08-19T21:20:13.725569+00:00"
+    "checked_at": "2026-08-20T00:54:52.304309+00:00"
   },
   "eeder": {
     "open": false,
-    "checked_at": "2026-08-19T21:20:18.769442+00:00",
+    "checked_at": "2026-08-20T00:54:57.152716+00:00",
     "latest_issue": "Cilt 10 Sayı 1"
   },
   "humanitas": {
     "open": false,
-    "checked_at": "2026-08-19T21:20:23.840191+00:00",
+    "checked_at": "2026-08-20T00:55:01.976769+00:00",
     "latest_issue": "Cilt 14 Sayı 27"
   },
   "sosbilder": {
     "open": false,
-    "checked_at": "2026-08-19T21:20:23.840230+00:00",
+    "checked_at": "2026-08-20T00:55:01.976790+00:00",
     "manual": true
   },
   "cankujhss": {
     "open": true,
-    "checked_at": "2026-08-19T21:20:29.029057+00:00"
+    "checked_at": "2026-08-20T00:55:06.991372+00:00"
   },
   "sefad": {
     "open": false,
-    "checked_at": "2026-08-19T21:20:29.029077+00:00",
+    "checked_at": "2026-08-20T00:55:06.991394+00:00",
     "manual": true
   },
   "suitder": {
     "open": false,
-    "checked_at": "2026-08-19T21:20:34.925487+00:00"
+    "checked_at": "2026-08-20T00:55:12.411228+00:00"
   },
   "litandhum": {
-    "open": true,
-    "checked_at": "2026-08-19T21:20:40.025522+00:00"
+    "open": false,
+    "checked_at": "2026-08-20T00:55:17.301105+00:00"
   },
   "udekad": {
     "open": false,
-    "checked_at": "2026-08-19T21:20:45.069815+00:00",
+    "checked_at": "2026-08-20T00:55:22.139914+00:00",
     "latest_issue": "Cilt 9 Sayı 2"
   },
   "dtcf": {
     "open": false,
-    "checked_at": "2026-08-19T21:20:50.020934+00:00",
+    "checked_at": "2026-08-20T00:55:26.951230+00:00",
     "latest_issue": "Cilt 66 Sayı 1"
   },
   "huefd": {
     "open": true,
-    "checked_at": "2026-08-19T21:20:55.106751+00:00",
+    "checked_at": "2026-08-20T00:55:31.909161+00:00",
     "latest_issue": "Cilt 43 Sayı 1"
   },
   "nesir": {
     "open": false,
-    "checked_at": "2026-08-19T21:21:00.165732+00:00"
+    "checked_at": "2026-08-20T00:55:36.858471+00:00"
   },
   "ceviri": {
     "open": false,
-    "checked_at": "2026-08-19T21:21:05.107744+00:00"
+    "checked_at": "2026-08-20T00:55:41.609986+00:00"
   },
   "dilder": {
     "open": true,
-    "checked_at": "2026-08-19T21:21:10.174235+00:00",
+    "checked_at": "2026-08-20T00:55:46.483898+00:00",
     "latest_issue": "Cilt 177 Sayı 1"
   },
   "trkede": {
     "open": true,
-    "checked_at": "2026-08-19T21:21:15.566128+00:00",
+    "checked_at": "2026-08-20T00:55:51.317327+00:00",
     "latest_issue": "Cilt 16 Sayı 32"
   },
   "dilarast": {
     "open": false,
-    "checked_at": "2026-08-19T21:21:20.539891+00:00",
+    "checked_at": "2026-08-20T00:55:56.257423+00:00",
     "latest_issue": "Cilt 20 Sayı 38"
   },
   "bilig": {
     "open": false,
-    "checked_at": "2026-08-19T21:21:25.475589+00:00"
+    "checked_at": "2026-08-20T00:56:01.028804+00:00"
   },
   "fe": {
     "open": true,
-    "checked_at": "2026-08-19T21:21:31.092566+00:00",
+    "checked_at": "2026-08-20T00:56:05.937810+00:00",
     "latest_issue": "Cilt 32 Sayı 127"
   },
   "_history": [
-    {
-      "at": "2026-06-02T10:14:27.064544+00:00",
-      "slug": "dtcf",
-      "open": true
-    },
     {
       "at": "2026-06-02T10:14:33.972337+00:00",
       "slug": "nesir",
@@ -255,6 +250,11 @@
       "at": "2026-08-19T00:55:24.322222+00:00",
       "slug": "litandhum",
       "open": true
+    },
+    {
+      "at": "2026-08-20T00:55:17.301126+00:00",
+      "slug": "litandhum",
+      "open": false
     }
   ]
 }
