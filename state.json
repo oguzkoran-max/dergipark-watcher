@@ -9,108 +9,103 @@
   },
   "soylem": {
     "open": false,
-    "checked_at": "2026-08-25T15:36:36.319015+00:00",
+    "checked_at": "2026-08-25T18:31:37.611547+00:00",
     "latest_issue": "Cilt 11 Sayı 2"
   },
   "iulitera": {
     "open": false,
-    "checked_at": "2026-08-25T15:36:41.846090+00:00",
+    "checked_at": "2026-08-25T18:31:42.565876+00:00",
     "latest_issue": "Cilt 35 Sayı 2"
   },
   "deuefad": {
     "open": false,
-    "checked_at": "2026-08-25T15:36:47.098285+00:00",
+    "checked_at": "2026-08-25T18:31:47.482249+00:00",
     "latest_issue": "Cilt 13 Sayı 1"
   },
   "diledeara": {
     "open": false,
-    "checked_at": "2026-08-25T15:36:52.455653+00:00"
+    "checked_at": "2026-08-25T18:31:52.437356+00:00"
   },
   "eeder": {
     "open": false,
-    "checked_at": "2026-08-25T15:36:57.810936+00:00",
+    "checked_at": "2026-08-25T18:31:57.421204+00:00",
     "latest_issue": "Cilt 10 Sayı 1"
   },
   "humanitas": {
     "open": false,
-    "checked_at": "2026-08-25T15:37:03.089352+00:00",
+    "checked_at": "2026-08-25T18:32:02.289680+00:00",
     "latest_issue": "Cilt 14 Sayı 27"
   },
   "sosbilder": {
     "open": false,
-    "checked_at": "2026-08-25T15:37:03.089372+00:00",
+    "checked_at": "2026-08-25T18:32:02.289710+00:00",
     "manual": true
   },
   "cankujhss": {
     "open": true,
-    "checked_at": "2026-08-25T15:37:08.795023+00:00"
+    "checked_at": "2026-08-25T18:32:07.853975+00:00"
   },
   "sefad": {
     "open": false,
-    "checked_at": "2026-08-25T15:37:08.795044+00:00",
+    "checked_at": "2026-08-25T18:32:07.854007+00:00",
     "manual": true
   },
   "suitder": {
-    "open": true,
-    "checked_at": "2026-08-25T15:37:15.528378+00:00"
+    "open": false,
+    "checked_at": "2026-08-25T18:32:13.333693+00:00"
   },
   "litandhum": {
     "open": false,
-    "checked_at": "2026-08-25T15:37:20.900724+00:00"
+    "checked_at": "2026-08-25T18:32:18.287007+00:00"
   },
   "udekad": {
     "open": false,
-    "checked_at": "2026-08-25T15:37:26.170906+00:00",
+    "checked_at": "2026-08-25T18:32:23.270495+00:00",
     "latest_issue": "Cilt 9 Sayı 2"
   },
   "dtcf": {
     "open": false,
-    "checked_at": "2026-08-25T15:37:31.494049+00:00",
+    "checked_at": "2026-08-25T18:32:28.140500+00:00",
     "latest_issue": "Cilt 66 Sayı 1"
   },
   "huefd": {
     "open": true,
-    "checked_at": "2026-08-25T15:37:36.833550+00:00",
+    "checked_at": "2026-08-25T18:32:33.113038+00:00",
     "latest_issue": "Cilt 43 Sayı 1"
   },
   "nesir": {
     "open": false,
-    "checked_at": "2026-08-25T15:37:42.294752+00:00"
+    "checked_at": "2026-08-25T18:32:37.973425+00:00"
   },
   "ceviri": {
     "open": false,
-    "checked_at": "2026-08-25T15:37:47.623176+00:00"
+    "checked_at": "2026-08-25T18:32:42.981767+00:00"
   },
   "dilder": {
     "open": true,
-    "checked_at": "2026-08-25T15:37:52.944596+00:00",
+    "checked_at": "2026-08-25T18:32:48.077269+00:00",
     "latest_issue": "Cilt 177 Sayı 1"
   },
   "trkede": {
     "open": true,
-    "checked_at": "2026-08-25T15:37:58.225841+00:00",
+    "checked_at": "2026-08-25T18:32:53.006235+00:00",
     "latest_issue": "Cilt 16 Sayı 32"
   },
   "dilarast": {
     "open": false,
-    "checked_at": "2026-08-25T15:38:03.591506+00:00",
+    "checked_at": "2026-08-25T18:32:57.869668+00:00",
     "latest_issue": "Cilt 20 Sayı 38"
   },
   "bilig": {
     "open": false,
-    "checked_at": "2026-08-25T15:38:09.268876+00:00"
+    "checked_at": "2026-08-25T18:33:02.686421+00:00"
   },
   "fe": {
     "open": true,
-    "checked_at": "2026-08-25T15:38:14.526626+00:00",
+    "checked_at": "2026-08-25T18:33:07.591611+00:00",
     "latest_issue": "Cilt 32 Sayı 127"
   },
   "_history": [
-    {
-      "at": "2026-06-02T16:12:39.135306+00:00",
-      "slug": "deuefad",
-      "open": false
-    },
     {
       "at": "2026-06-02T16:13:06.539952+00:00",
       "slug": "suitder",
@@ -254,6 +249,11 @@
     {
       "at": "2026-08-25T15:36:52.455667+00:00",
       "slug": "diledeara",
+      "open": false
+    },
+    {
+      "at": "2026-08-25T18:32:13.333716+00:00",
+      "slug": "suitder",
       "open": false
     }
   ]
