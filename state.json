@@ -8,109 +8,104 @@
     "err_diledeara": "2026-08-18T09:27:25.899021+00:00"
   },
   "soylem": {
-    "open": true,
-    "checked_at": "2026-09-30T21:46:34.171135+00:00",
+    "open": false,
+    "checked_at": "2026-10-01T03:40:45.008323+00:00",
     "latest_issue": "Cilt 11 Sayı 3"
   },
   "iulitera": {
     "open": false,
-    "checked_at": "2026-09-30T21:46:39.370097+00:00",
+    "checked_at": "2026-10-01T03:40:50.124487+00:00",
     "latest_issue": "Cilt 35 Sayı 2"
   },
   "deuefad": {
     "open": false,
-    "checked_at": "2026-09-30T21:46:44.570158+00:00",
+    "checked_at": "2026-10-01T03:40:55.224918+00:00",
     "latest_issue": "Cilt 13 Sayı 1"
   },
   "diledeara": {
     "open": false,
-    "checked_at": "2026-09-30T21:46:49.764774+00:00"
+    "checked_at": "2026-10-01T03:41:00.364640+00:00"
   },
   "eeder": {
     "open": false,
-    "checked_at": "2026-09-30T21:46:55.610398+00:00",
+    "checked_at": "2026-10-01T03:41:05.502365+00:00",
     "latest_issue": "Cilt 10 Sayı 1"
   },
   "humanitas": {
     "open": false,
-    "checked_at": "2026-09-30T21:47:00.829230+00:00",
+    "checked_at": "2026-10-01T03:41:10.570466+00:00",
     "latest_issue": "Cilt 14 Sayı 27"
   },
   "sosbilder": {
     "open": false,
-    "checked_at": "2026-09-30T21:47:00.829258+00:00",
+    "checked_at": "2026-10-01T03:41:10.570495+00:00",
     "manual": true
   },
   "cankujhss": {
     "open": true,
-    "checked_at": "2026-09-30T21:47:06.408263+00:00"
+    "checked_at": "2026-10-01T03:41:16.431220+00:00"
   },
   "sefad": {
     "open": false,
-    "checked_at": "2026-09-30T21:47:06.408288+00:00",
+    "checked_at": "2026-10-01T03:41:16.431263+00:00",
     "manual": true
   },
   "suitder": {
     "open": false,
-    "checked_at": "2026-09-30T21:47:12.643463+00:00"
+    "checked_at": "2026-10-01T03:41:22.472677+00:00"
   },
   "litandhum": {
     "open": false,
-    "checked_at": "2026-09-30T21:47:17.917011+00:00"
+    "checked_at": "2026-10-01T03:41:27.489390+00:00"
   },
   "udekad": {
     "open": true,
-    "checked_at": "2026-09-30T21:47:23.109939+00:00",
+    "checked_at": "2026-10-01T03:41:32.623021+00:00",
     "latest_issue": "Cilt 9 Sayı 3"
   },
   "dtcf": {
     "open": false,
-    "checked_at": "2026-09-30T21:47:28.451598+00:00",
+    "checked_at": "2026-10-01T03:41:37.712533+00:00",
     "latest_issue": "Cilt 66 Sayı 1"
   },
   "huefd": {
     "open": true,
-    "checked_at": "2026-09-30T21:47:33.729631+00:00",
+    "checked_at": "2026-10-01T03:41:42.714029+00:00",
     "latest_issue": "Cilt 43 Sayı 1"
   },
   "nesir": {
     "open": false,
-    "checked_at": "2026-09-30T21:47:38.844648+00:00"
+    "checked_at": "2026-10-01T03:41:47.846854+00:00"
   },
   "ceviri": {
     "open": false,
-    "checked_at": "2026-09-30T21:47:44.172339+00:00"
+    "checked_at": "2026-10-01T03:41:52.968899+00:00"
   },
   "dilder": {
     "open": true,
-    "checked_at": "2026-09-30T21:47:49.459780+00:00",
+    "checked_at": "2026-10-01T03:41:57.999311+00:00",
     "latest_issue": "Cilt 177 Sayı 1"
   },
   "trkede": {
     "open": true,
-    "checked_at": "2026-09-30T21:47:54.770079+00:00",
+    "checked_at": "2026-10-01T03:42:03.011992+00:00",
     "latest_issue": "Cilt 16 Sayı 32"
   },
   "dilarast": {
     "open": false,
-    "checked_at": "2026-09-30T21:48:00.009030+00:00",
+    "checked_at": "2026-10-01T03:42:08.148621+00:00",
     "latest_issue": "Cilt 20 Sayı 38"
   },
   "bilig": {
     "open": false,
-    "checked_at": "2026-09-30T21:48:05.259272+00:00"
+    "checked_at": "2026-10-01T03:42:13.245613+00:00"
   },
   "fe": {
     "open": true,
-    "checked_at": "2026-09-30T21:48:10.485580+00:00",
+    "checked_at": "2026-10-01T03:42:18.122915+00:00",
     "latest_issue": "Cilt 32 Sayı 127"
   },
   "_history": [
-    {
-      "at": "2026-06-10T22:51:07.676381+00:00",
-      "slug": "dilarast",
-      "open": false
-    },
     {
       "at": "2026-06-14T22:06:11.287496+00:00",
       "slug": "dtcf",
@@ -255,6 +250,11 @@
       "at": "2026-09-30T21:47:23.109961+00:00",
       "slug": "udekad",
       "open": true
+    },
+    {
+      "at": "2026-10-01T03:40:45.008352+00:00",
+      "slug": "soylem",
+      "open": false
     }
   ]
 }
